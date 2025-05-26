@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Admin-Server
+  boot:
+    admin:
+      ui:
+        title: Spring Boot Admin Server
+server:
+  port: '8080  '

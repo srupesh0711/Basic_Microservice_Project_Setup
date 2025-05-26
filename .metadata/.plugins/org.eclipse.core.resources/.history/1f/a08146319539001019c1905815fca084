@@ -1,0 +1,15 @@
+package com.Microservice_3;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class SecondController {
+	@Autowired
+	private Client client;
+	
+	@GetMapping("/fromsecondcontroller")
+	public String getMessageFromMicroservice1() {
+		return client.getMessage();
+	}
+
+}
