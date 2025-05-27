@@ -15,4 +15,4 @@ public class ApiGatewayApplication {
 }
 
 //http://localhost:5555/micro3/second
-//http://localhost:5555/micro1/message
+//http://localhost:5555/micro1/message 
