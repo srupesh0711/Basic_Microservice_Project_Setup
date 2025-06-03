@@ -1,3 +1,0 @@
-spring.application.name=Admin-Server
-server.port=8080  
-spring.boot.admin.ui.title=Spring Boot Admin Server
